@@ -1,1 +1,243 @@
-{"type":"script","seleniumVersion":"2","formatVersion":2,"steps":[{"type":"get","url":"https://brandorange4.e3hosting.net/"},{"type":"waitForElementPresent","locator":{"type":"css selector","value":"form[action^=\"/login/\"] > fieldset"}},{"type":"clickElement","locator":{"type":"css selector","value":"form[action^=\"/login/\"] > fieldset"}},{"type":"waitForElementPresent","locator":{"type":"css selector","value":"#Username"}},{"type":"clickElement","locator":{"type":"css selector","value":"#Username"}},{"type":"waitForElementPresent","locator":{"type":"css selector","value":"#Username"}},{"type":"clickElement","locator":{"type":"css selector","value":"#Username"}},{"type":"waitForElementPresent","locator":{"type":"css selector","value":"#Username"}},{"type":"setElementText","locator":{"type":"css selector","value":"#Username"},"text":"james.gibbons"},{"type":"waitForElementPresent","locator":{"type":"css selector","value":"#Password"}},{"type":"setElementText","locator":{"type":"css selector","value":"#Password"},"text":"Password1"},{"type":"waitForElementPresent","locator":{"type":"css selector","value":"input[name=\"Send\"]"}},{"type":"clickElement","locator":{"type":"css selector","value":"input[name=\"Send\"]"}},{"type":"waitForElementPresent","locator":{"type":"css selector","value":"input[id=\"get-data\"][name=\"term\"]"}},{"type":"clickElement","locator":{"type":"css selector","value":"input[id=\"get-data\"][name=\"term\"]"}},{"type":"waitForElementPresent","locator":{"type":"css selector","value":"input[id=\"get-data\"][name=\"term\"]"}},{"type":"clickElement","locator":{"type":"css selector","value":"input[id=\"get-data\"][name=\"term\"]"}},{"type":"waitForElementPresent","locator":{"type":"css selector","value":"input[id=\"get-data\"][name=\"term\"]"}},{"type":"clickElement","locator":{"type":"css selector","value":"input[id=\"get-data\"][name=\"term\"]"}},{"type":"waitForElementPresent","locator":{"type":"css selector","value":"input[id=\"get-data\"][name=\"term\"]"}},{"type":"assertElementPresent","locator":{"type":"css selector","value":"input[id=\"get-data\"][name=\"term\"]"},"negated":false},{"type":"waitForElementPresent","locator":{"type":"css selector","value":"input[id=\"get-data\"][name=\"term\"]"}},{"type":"clickElement","locator":{"type":"css selector","value":"input[id=\"get-data\"][name=\"term\"]"}},{"type":"waitForElementPresent","locator":{"type":"css selector","value":"input[id=\"get-data\"][name=\"term\"]"}},{"type":"sendKeysToElement","locator":{"type":"css selector","value":"input[id=\"get-data\"][name=\"term\"]"},"text":"!{ENTER}"},{"type":"waitForElementPresent","locator":{"type":"css selector","value":"input[id=\"get-data\"][name=\"term\"]"}},{"type":"setElementText","locator":{"type":"css selector","value":"input[id=\"get-data\"][name=\"term\"]"},"text":"test"},{"type":"waitForElementPresent","locator":{"type":"css selector","value":"#results-container img[alt=\"Test Gif\"]"}},{"type":"assertElementPresent","locator":{"type":"css selector","value":"#results-container img[alt=\"Test Gif\"]"},"negated":false},{"type":"waitForElementPresent","locator":{"type":"css selector","value":"#results-container a[href=\"/assets/test-gif/\"]"}},{"type":"clickElement","locator":{"type":"css selector","value":"#results-container a[href=\"/assets/test-gif/\"]"}},{"type":"waitForElementPresent","locator":{"type":"css selector","value":"h2.fontsize-26"}},{"type":"assertText","locator":{"type":"css selector","value":"h2.fontsize-26"},"text":"*Test Gif*","negated":false}]}
+{
+  "type": "script",
+  "seleniumVersion": "2",
+  "formatVersion": 2,
+  "steps": [
+    {
+      "type": "get",
+      "url": "https://brandorange4.e3hosting.net/"
+    },
+    {
+      "type": "waitForElementPresent",
+      "locator": {
+        "type": "css selector",
+        "value": "form[action^=\"/login/\"] > fieldset"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "form[action^=\"/login/\"] > fieldset"
+      }
+    },
+    {
+      "type": "waitForElementPresent",
+      "locator": {
+        "type": "css selector",
+        "value": "#Username"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "#Username"
+      }
+    },
+    {
+      "type": "waitForElementPresent",
+      "locator": {
+        "type": "css selector",
+        "value": "#Username"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "#Username"
+      }
+    },
+    {
+      "type": "waitForElementPresent",
+      "locator": {
+        "type": "css selector",
+        "value": "#Username"
+      }
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "css selector",
+        "value": "#Username"
+      },
+      "text": "james.gibbons"
+    },
+    {
+      "type": "waitForElementPresent",
+      "locator": {
+        "type": "css selector",
+        "value": "#Password"
+      }
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "css selector",
+        "value": "#Password"
+      },
+      "text": "Password1"
+    },
+    {
+      "type": "waitForElementPresent",
+      "locator": {
+        "type": "css selector",
+        "value": "input[name=\"Send\"]"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "input[name=\"Send\"]"
+      }
+    },
+    {
+      "type": "waitForElementPresent",
+      "locator": {
+        "type": "css selector",
+        "value": "input[id=\"get-data\"][name=\"term\"]"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "input[id=\"get-data\"][name=\"term\"]"
+      }
+    },
+    {
+      "type": "waitForElementPresent",
+      "locator": {
+        "type": "css selector",
+        "value": "input[id=\"get-data\"][name=\"term\"]"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "input[id=\"get-data\"][name=\"term\"]"
+      }
+    },
+    {
+      "type": "waitForElementPresent",
+      "locator": {
+        "type": "css selector",
+        "value": "input[id=\"get-data\"][name=\"term\"]"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "input[id=\"get-data\"][name=\"term\"]"
+      }
+    },
+    {
+      "type": "waitForElementPresent",
+      "locator": {
+        "type": "css selector",
+        "value": "input[id=\"get-data\"][name=\"term\"]"
+      }
+    },
+    {
+      "type": "assertElementPresent",
+      "locator": {
+        "type": "css selector",
+        "value": "input[id=\"get-data\"][name=\"term\"]"
+      },
+      "negated": false
+    },
+    {
+      "type": "waitForElementPresent",
+      "locator": {
+        "type": "css selector",
+        "value": "input[id=\"get-data\"][name=\"term\"]"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "input[id=\"get-data\"][name=\"term\"]"
+      }
+    },
+    {
+      "type": "waitForElementPresent",
+      "locator": {
+        "type": "css selector",
+        "value": "input[id=\"get-data\"][name=\"term\"]"
+      }
+    },
+    {
+      "type": "sendKeysToElement",
+      "locator": {
+        "type": "css selector",
+        "value": "input[id=\"get-data\"][name=\"term\"]"
+      },
+      "text": "!{ENTER}"
+    },
+    {
+      "type": "waitForElementPresent",
+      "locator": {
+        "type": "css selector",
+        "value": "input[id=\"get-data\"][name=\"term\"]"
+      }
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "css selector",
+        "value": "input[id=\"get-data\"][name=\"term\"]"
+      },
+      "text": "test"
+    },
+    {
+      "type": "waitForElementPresent",
+      "locator": {
+        "type": "css selector",
+        "value": "#results-container img[alt=\"Test Gif\"]"
+      }
+    },
+    {
+      "type": "assertElementPresent",
+      "locator": {
+        "type": "css selector",
+        "value": "#results-container img[alt=\"Test Gif\"]"
+      },
+      "negated": false
+    },
+    {
+      "type": "waitForElementPresent",
+      "locator": {
+        "type": "css selector",
+        "value": "#results-container a[href=\"/assets/test-gif/\"]"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "#results-container a[href=\"/assets/test-gif/\"]"
+      }
+    },
+    {
+      "type": "waitForElementPresent",
+      "locator": {
+        "type": "css selector",
+        "value": "h2.fontsize-26"
+      }
+    },
+    {
+      "type": "assertText",
+      "locator": {
+        "type": "css selector",
+        "value": "h2.fontsize-26"
+      },
+      "text": "*Test Gif*",
+      "negated": false
+    }
+  ]
+}
